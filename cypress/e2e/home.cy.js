@@ -7,4 +7,4 @@ describe('Home', () => {
       cy.get('a[href="/signup"]').click();
       cy.url().should('include','https://walkdog.vercel.app/signup')
     });
-});
+})
